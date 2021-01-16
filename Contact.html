@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: rgb(110, 110, 110);
+      }
+      
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .topnav a.active {
+        background-color: #f8ca32;
+        color: white;
+      }
+            </style>
+       <title>DALLEL ROUHEK, Nous contacter</title>
+       <meta charset="UTF-8">
+       <meta name="description" content="DALLEL ROUHEK CAFE SHOP is an....">
+       <meta name="keywords" content="cafe shop, zerir, granola, sauce pesto, beurre de cacahuète, caramel au buerre salé, pot energétique, djerba, ">
+       <link rel="DALLEL ROUHK icon" href="1mg2.jpg">
+    </head>
+    <body>
+       <a href="img1.jpg" target="_blank">
+       <img src="img1.jpg"  alt="photo" width="1500px" height="500px"  >
+       </a>
+       <h1>DALLEL ROUHEK ÉPICERIE FINE</h1> 
+       <div class="topnav">
+         <a class="active" href="CAFE SHOP.html">Accueil</a>
+         <a href="Menu.html">Menu</a>
+         <a href="Contact.html">Contact</a>
+       </div>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26501.183191213917!2d10.83453978138063!3d33.872964011906184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13aaa4e858b552ef%3A0xb3ee7cc8fa3692d7!2sHoumt%20Souk!5e0!3m2!1sen!2stn!4v1610820354199!5m2!1sen!2stn" width="1500px" height="500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+     <h1>Nous contacter</h1>
+     <form action="Contact.html" >
+       <fieldset>
+           <legend>Nous conatcter</legend>
+           <div>
+              <label for="emailinput">Votre email</label>
+              <input type="email" name="email" id="emailinput" placeholder="contact@gmail.com" required> 
+           </div>
+           <div>
+              <label for="nameinput">Votre nom</label>
+              <input type="text" name="firstname" id="nameinput">
+           </div>
+           <div>
+            <label for="fileinput">Pièce jointe</label>
+            <input type="file" name="file" id="fileinput" > 
+         </div>
+         <div>
+             <label id="sexe">sexe</label>
+             <select name="sexe" id="sexe">
+                 <option value="m">Masculin</option>
+                 <option value="f" selected>Féminin</option>
+             </select>
+         </div>
+         <div>
+            <label for="message">Votre message</label>
+            <br>
+            <textarea name="message" id="message" cols="60" rows="10" placeholder="Votre message"></textarea>
+         </div>
+           <input type="submit" value="Envoyer un email">
+           <input type="reset" value="Annuler">
+       </fieldset>
+     </form>
+    </body>
+</html>
